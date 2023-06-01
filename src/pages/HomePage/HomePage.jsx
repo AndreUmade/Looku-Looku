@@ -8,15 +8,22 @@ const HomePage = () => {
         <div className="home_navs">
           <div className="home_dasboard">
             <div className="home_dasboard_case">
-              <img src={""} className="home_dasboard_img" />
+              <img src={""} className="home_dasboard_img" alt="logo" />
               <p className="home_dasboard_text">Dashboard</p>
             </div>
           </div>
 
-          <div className="home_dasboard">
+          <div className="home_profile">
             <div className="home_dasboard_case">
-              <img src={""} className="home_dasboard_img" />
+              <img src={""} className="home_dasboard_img" alt="dashboard" />
               <p className="home_dasboard_text">Dashboard</p>
+            </div>
+          </div>
+
+          <div className="home_profile">
+            <div className="home_profile_case">
+              <img src={""} className="home_profile_img" alt="profile" />
+              <p className="home_profile_text">Dashboard</p>
             </div>
           </div>
         </div>
