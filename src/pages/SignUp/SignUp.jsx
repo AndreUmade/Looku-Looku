@@ -132,7 +132,7 @@ const SignUp = () => {
           Already have an account?
           <a href={"/login"} className="signup_link_signup1">
             Sign in
-          </a>{" "}
+          </a>
         </p>
       </div>
 
