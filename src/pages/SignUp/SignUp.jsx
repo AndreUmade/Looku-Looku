@@ -7,7 +7,7 @@ const SignUp = () => {
       <div className="signup_first_frame">
         <img
           className="signup_logo"
-          src={process.env.PUBLIC_URL + "Logo.svg"}
+          src={"./logo.svg"}
           alt="logo"
         />
         <p className="signup_text">Create an account</p>
@@ -114,11 +114,11 @@ const SignUp = () => {
           />
           <label className="signup_checkbox_text" for="tick">
             I agree to the{" "}
-            <a href="" className="signup_checkbox_link">
+            <a  className="signup_checkbox_link">
               Terms
             </a>{" "}
             and{" "}
-            <a href="" className="signup_checkbox_link1">
+            <a  className="signup_checkbox_link1">
               Conditions
             </a>
           </label>
@@ -139,7 +139,7 @@ const SignUp = () => {
       <div className="signup_second_frame">
         <img
           className="signup_second_img"
-          src={process.env.PUBLIC_URL + "signup main.svg"}
+          src={"./signup main.svg"}
           alt="signup frame"
         />
       </div>

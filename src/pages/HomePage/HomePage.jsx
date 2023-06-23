@@ -74,7 +74,7 @@ const HomePage = () => {
         </div>
         <img
           className="home_logo"
-          src={process.env.PUBLIC_URL + "logo 2.svg"}
+          src={"./logo 2.svg"}
           alt="logo"
         />
       </div>
@@ -87,14 +87,14 @@ const HomePage = () => {
           type="text"
           placeholder="Search.."
         />
-        <img className="dashboard_main_img" src="./search-normal.svg" alt="" />
+        <img className="dashboard_main_img" src="./search-normal.svg" alt="dashboard" />
 
-        <a className="dashboard_bell" href={"null"}>
-          <img className="dashboard_bell_img" src="./notification.svg" alt="" />
+        <a className="dashboard_bell" href={"/profile"}>
+          <img className="dashboard_bell_img" src="./notification.svg" alt="notification" />
         </a>
 
         <div className="dashboard_notif">
-          <img className="dashboard_notif_img" src="./Frame 258.svg" alt="" />
+          <img className="dashboard_notif_img" src="./Frame 258.svg" alt="notification" />
           <input id="toggler" type="checkbox" />
           <label for="toggler">
             <img
@@ -107,11 +107,11 @@ const HomePage = () => {
             <div className="notif_dropdown_case">
               <a
                 className="notif_dropdown_style"
-                href={process.env.PUBLIC_URL + "profile"}
+                href={"/profile"}
               >
                 <img
                   className="notif_dropdown_img"
-                  src={process.env.PUBLIC_URL + "profile dropdown.svg"}
+                  src={"./profile dropdown.svg"}
                   alt="padlock png"
                 />
                 <p className="notif_dropdown_text">Profile</p>
@@ -119,7 +119,7 @@ const HomePage = () => {
               <div className="notif_dropdown_line"></div>
               <a
                 className="notif_dropdown_style1"
-                href={process.env.PUBLIC_URL + "login"}
+                href={"/signup"}
               >
                 <img
                   className="notif_dropdown_img1"

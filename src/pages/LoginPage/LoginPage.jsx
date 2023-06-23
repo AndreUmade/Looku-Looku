@@ -7,7 +7,7 @@ const LoginPage = () => {
       <div className="login_first_frme">
         <img
           className="login_logo"
-          src={process.env.PUBLIC_URL + "Logo.svg"}
+          src={"./logo.svg"}
           alt="logo"
         />
         <p className="login_text">Login to your account</p>
@@ -66,7 +66,7 @@ const LoginPage = () => {
         </div>
 
         <p className="login_link_signup">
-          Don’t have an account?
+          Don{"’"}t have an account?
           <a href={"/signup"} className="login_link_signup1">
             Sign up
           </a>
